@@ -32,6 +32,6 @@ $stmt = $db->prepare("SELECT screen_name FROM accounts");
 		}
 foreach($ids as $id){
 
-    echo "https://twitter.com/".$id['screen_name']."/followers<br>";
+    echo "'".$id['screen_name']."',<br>";
 }
 exit;

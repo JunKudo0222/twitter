@@ -10,7 +10,7 @@ foreach($array as $arr){
     }
 }
 
-require 'common.php';
+c
 
 
 
